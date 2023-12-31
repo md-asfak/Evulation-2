@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 300px));
+
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: grid;
+  height: 600px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px -6px black;
+}
+.title {
+  color: rgb(43, 42, 42);
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+.p {
+  font-size: 11px;
+}
+.prices {
+  font-size: 22px;
+  font-weight: 700;
+  color: brown;
+}
+
+.btn {
+  width: 70px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: brown;
+}
